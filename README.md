@@ -1,6 +1,6 @@
 # Xcode 26 System Prompts & Documentation
 
-This repository contains system prompts and documentation from Xcode 26 beta 7, providing insights into Apple's approach to AI-assisted coding and comprehensive guides for iOS 26 features and frameworks.
+This repository contains system prompts and documentation from Xcode 26, providing insights into Apple's approach to AI-assisted coding and comprehensive guides for iOS 26 features and frameworks.
 
 ## Repository Structure
 
