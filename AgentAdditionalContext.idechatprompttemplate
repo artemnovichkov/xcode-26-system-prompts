@@ -1,0 +1,11 @@
+{% if projectStructure %}Project structure:
+{{ projectStructure }}{% endif %}{% if currentFile %}
+
+The user is currently inside this file: {{ currentFile.filePath }}{% if currentFile.selection %}
+
+The user has selected the following code from that file (lines {{ currentFile.selection.startLine }}-{{ currentFile.selection.endLine }}):
+{{ currentFile.selection.text }}{% else %}
+
+The user has no code selected.{% endif %}{% else %}
+
+The user has no file currently open.{% endif %}

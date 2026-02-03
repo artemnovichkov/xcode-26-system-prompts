@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>claude</key>
+	<dict>
+		<key>checksum</key>
+		<string>e0b46113b66a91db787e01bca0f5baa262ce4308852baf8a2d32ea504053fd11ab31c0ac5ccc88800d7a6c633ccd26ef003261ac5005b1c448fbaf307310cf71</string>
+		<key>url</key>
+		<string>https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.14/darwin-arm64/claude</string>
+		<key>version</key>
+		<string>2.1.14</string>
+	</dict>
+	<key>codex</key>
+	<dict>
+		<key>checksum</key>
+		<string>89c8abe25bc6bb40bc890dc909863ceac1d5fa381e0aadfa977faf4f46a4af3f285a3cfe778061494f6a29022abfaf339a18caaeab2d06cc39b0a038bc88623b</string>
+		<key>url</key>
+		<string>https://github.com/openai/codex/releases/download/rust-v0.87.0/codex-aarch64-apple-darwin.tar.gz</string>
+		<key>version</key>
+		<string>0.87.0</string>
+	</dict>
+</dict>
+</plist>

@@ -1,6 +1,6 @@
 # Xcode 26 System Prompts & Documentation
 
-This repository contains system prompts and documentation from Xcode 26, providing insights into Apple's approach to AI-assisted coding and comprehensive guides for iOS 26 features and frameworks.
+This repository contains system prompts and documentation from Xcode 26.3, providing insights into Apple's approach to AI-assisted coding and comprehensive guides for iOS 26 features and frameworks.
 
 ## Repository Structure
 
@@ -31,6 +31,17 @@ Core prompts that power Xcode's AI coding assistant in different modes and conte
 - [`ToolAssistedBasicSystemPrompt.idechatprompttemplate`](./ToolAssistedBasicSystemPrompt.idechatprompttemplate) - Enhanced with search and editing tools
 - [`ToolAssistedReasoningSystemPrompt.idechatprompttemplate`](./ToolAssistedReasoningSystemPrompt.idechatprompttemplate) - Reasoning with tool access
 - [`ToolAssistedInQueryDetailedGuidelines.idechatprompttemplate`](./ToolAssistedInQueryDetailedGuidelines.idechatprompttemplate) - Detailed tool usage guidelines
+
+#### **Agent Prompts**
+- [`AgentSystemPromptAddition.idechatprompttemplate`](./AgentSystemPromptAddition.idechatprompttemplate) - Xcode agent system prompt with MCP tools, documentation search, and code style guidelines
+- [`AgentAdditionalContext.idechatprompttemplate`](./AgentAdditionalContext.idechatprompttemplate) - Project structure and file context for agent mode
+- [`AgentVersions.plist`](./AgentVersions.plist) - Agent version configuration (Claude, Codex)
+
+#### **Coding Tool Templates**
+- [`CodingToolTemplateDocument.idechatprompttemplate`](./CodingToolTemplateDocument.idechatprompttemplate) - Documentation generation via XcodeUpdate tool
+- [`CodingToolTemplateExplain.idechatprompttemplate`](./CodingToolTemplateExplain.idechatprompttemplate) - Code explanation tool template
+- [`CodingToolTemplateGeneratePlayground.idechatprompttemplate`](./CodingToolTemplateGeneratePlayground.idechatprompttemplate) - Swift `#Playground` generation tool template
+- [`CodingToolTemplateGeneratePreview.idechatprompttemplate`](./CodingToolTemplateGeneratePreview.idechatprompttemplate) - SwiftUI `#Preview` generation tool template
 
 #### **Specialized Generation Prompts**
 - [`GenerateDocumentation.idechatprompttemplate`](./GenerateDocumentation.idechatprompttemplate) - Code documentation generation
@@ -78,6 +89,7 @@ Comprehensive guides for iOS 26 features and framework updates:
 - [`AppIntents-Updates.md`](./AdditionalDocumentation/AppIntents-Updates.md) - App Intents framework updates
 
 ### Supporting Files
+- [`IDEIntelligenceChat.xcplugindata`](./IDEIntelligenceChat.xcplugindata) - Plugin data for Xcode's AI chat feature
 - [`bert-estimate.vocab`](./bert-estimate.vocab) - BERT model vocabulary for embeddings
 - Various embedding and search configuration templates
 
